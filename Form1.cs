@@ -26,7 +26,7 @@ public class ButtonPanel {
             BUTTON_SIZE * MAX_COLUMNS + MAX_COLUMNS * 2 * MARGIN,
             BUTTON_SIZE * MAX_ROWS + MAX_ROWS * 2 * MARGIN
         );
-        Layout.BackColor = Color.Aqua;
+        Layout.BackColor = Color.LightGray;
         Layout.Margin = new Padding(MARGIN);
         Layout.FlowDirection = FlowDirection.RightToLeft;
 
