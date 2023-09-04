@@ -1,18 +1,36 @@
 namespace calculator;
 
 public partial class Form1 : Form {
-    private void btnClickMe_Click(object? sender, EventArgs e) {
-        MessageBox.Show("Button Clicked!");
-    }
+    public const int MAX_ROWS = 4;
+    public const int MAX_COLUMNS = 3;
+    public const int BUTTON_SIZE = 100;
+    public const int MARGIN = 3;
 
     public Form1() {
-        Button btnClickMe = new Button();
-        btnClickMe.Text = "Click Me";
-        btnClickMe.Location = new System.Drawing.Point(50, 50);
-        btnClickMe.Click += new EventHandler(btnClickMe_Click);
+        FlowLayoutPanel panel = new();
+        panel.Size = new Size(
+            BUTTON_SIZE * MAX_COLUMNS + MAX_COLUMNS * 2 * MARGIN,
+            BUTTON_SIZE * MAX_ROWS + MAX_ROWS * 2 * MARGIN
+        );
+        panel.BackColor = Color.Aqua;
+        panel.Margin = new Padding(MARGIN);
+        panel.FlowDirection = FlowDirection.RightToLeft;
 
-        Controls.Add(btnClickMe);
+        for (int i = 0; i <= 9; i++) {
+            panel.Controls.Add(B(i.ToString()));
+        }
+
+        Controls.Add(panel);
 
         InitializeComponent();
+    }
+
+    public Button B(string text) {
+        Button b = new Button();
+        b.Text = text;
+        b.Size = new Size(BUTTON_SIZE, BUTTON_SIZE);
+        b.Margin = new Padding(MARGIN);
+
+        return b;
     }
 }
