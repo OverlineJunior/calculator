@@ -1,8 +1,6 @@
 namespace calculator;
 
 public class NumberButton {
-    public const int MAX_ROWS = 4;
-    public const int MAX_COLUMNS = 3;
     public const int BUTTON_SIZE = 100;
     public const int MARGIN = 3;
     public readonly Button Button;
@@ -54,11 +52,6 @@ public class ButtonPanel {
 }
 
 public partial class Form1 : Form {
-    public const int MAX_ROWS = 4;
-    public const int MAX_COLUMNS = 3;
-    public const int BUTTON_SIZE = 100;
-    public const int MARGIN = 3;
-
     public Form1() {
         ButtonPanel buttonPanel = new();
         Controls.Add(buttonPanel.Layout);
