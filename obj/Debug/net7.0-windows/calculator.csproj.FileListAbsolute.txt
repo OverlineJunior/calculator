@@ -1,0 +1,14 @@
+D:\Repos\C#\calculator\bin\Debug\net7.0-windows\calculator.exe
+D:\Repos\C#\calculator\bin\Debug\net7.0-windows\calculator.deps.json
+D:\Repos\C#\calculator\bin\Debug\net7.0-windows\calculator.runtimeconfig.json
+D:\Repos\C#\calculator\bin\Debug\net7.0-windows\calculator.dll
+D:\Repos\C#\calculator\bin\Debug\net7.0-windows\calculator.pdb
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\calculator.AssemblyInfoInputs.cache
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\calculator.AssemblyInfo.cs
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\calculator.csproj.CoreCompileInputs.cache
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\calculator.dll
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\refint\calculator.dll
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\calculator.pdb
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\calculator.genruntimeconfig.cache
+D:\Repos\C#\calculator\obj\Debug\net7.0-windows\ref\calculator.dll
